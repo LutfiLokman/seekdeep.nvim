@@ -2,7 +2,7 @@ local M = {}
 
 function M.say_hello()
   local buf = vim.api.nvim_create_buf(false, true)
-  local width = 30
+  local width = 15
   local height = 1
 
   local opts = {
